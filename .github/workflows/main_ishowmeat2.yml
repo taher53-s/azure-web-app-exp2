@@ -63,4 +63,4 @@ jobs:
         with:
           app-name: 'ishowmeat2'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6CCA3D7CD70A4BB6859DB446763282CF }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_89AC071485A3406BA4E82E826C0C66F7 }}
