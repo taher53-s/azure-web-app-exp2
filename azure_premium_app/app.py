@@ -4,7 +4,7 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 # Premium Configuration
-app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'premium-secret-key-12345')
+
 
 @app.route('/')
 def index():
